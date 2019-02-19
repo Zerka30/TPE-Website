@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma | TPE Report</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="highlight-blue" style="background-color:rgb(46,46,46);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">TPE Report</h2>
+                <p class="text-center">By Zerka and Hatu7<br></p>
+            </div>
+            <div class="buttons"></div>
+        </div>
+    </div>
+    <div style="background-color:#5797d2;">
+        <nav class="navbar navbar-light navbar-expand-sm navigation-clean" style="background-color:#5797d2;color:rgb(255,255,255);">
+            <div class="container"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                   <ul class="nav navbar-nav ml-auto" style="margin-right:0px;margin-left:0px">
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="index.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-home"></i> Homepage</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="history.html" style="color:#ffffff;font-weight:bold;"><i class="far fa-clipboard"></i> History</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;">Method</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="caesar.html">Caesar</a><a class="dropdown-item" role="presentation" href="vigenere.html">Vigenere</a><a class="dropdown-item" role="presentation" href="enigma.html">Enigma</a><a class="dropdown-item" role="presentation" href="sha256.html">Sha256</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="interception.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-envelope-open-text"></i> Interception</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="conclusion.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-edit"></i> Conclusion</a></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;"><i class="fas fa-laptop"></i> Program</a>
+
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="program.html">Encrypt</a><a class="dropdown-item" role="presentation" href="decrypt.html">Decrypt</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="bibliography.html" style="color:#ffffff;font-weight:bold;"> <i class="fas fa-book"></i> Bibliography</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="contact.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-phone"></i> Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<h1 class="ttitle titre">Enigma</h1>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">Enigma was a big mechanical machine with five rotors : the first one showing the real letter you’re pressing and the last being the reflector. Between, the 3 other rotors are used to encrypt the message. For each letter written, the first rotor turn of a step. When the first rotor made a whole turn, the second one move of a step. It's the same thing with the last rotor when the second made one whole turn. The repetition of those operations allows the machine encrypting the message with precision. We would need to write 17 576 letters to rediscover a letter which is the real letter. But, rotors are frequently changed or renewed, so it never happens, therefore the decryption of a single message is really hard. <br> <br>
+
+The machine Enigma has been cracked by Alan Turing. He pointed out that all the messages had to get a specific formulation, and he saw a repetition in the coded message, it was some words at the end of the text with the name of Hitler. With this conclusion, he succeeded to decrypt the other letters with his famous computer.
+
+</div>
+    <div class="p-2"><img src="assets/img/enigma1.png"></div>
+</div>
+
+
+
+
+    <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <div class="footer-dark" style="background-color:rgba(40,45,50,0);">
+        <footer>
+            <div class="container">
+                <p class="copyright" style="color:rgb(22,22,22);letter-spacing:2px;font-size:17px;"><br>© ZERKA. ALL RIGHTS RESERVED<br><br></p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

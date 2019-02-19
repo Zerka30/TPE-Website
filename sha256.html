@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sha256 | TPE Report</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="highlight-blue" style="background-color:rgb(46,46,46);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">TPE Report</h2>
+                <p class="text-center">By Zerka and Hatu7<br></p>
+            </div>
+            <div class="buttons"></div>
+        </div>
+    </div>
+    <div style="background-color:#5797d2;">
+        <nav class="navbar navbar-light navbar-expand-sm navigation-clean" style="background-color:#5797d2;color:rgb(255,255,255);">
+            <div class="container"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                   <ul class="nav navbar-nav ml-auto" style="margin-right:0px;margin-left:0px">
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="index.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-home"></i> Homepage</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="history.html" style="color:#ffffff;font-weight:bold;"><i class="far fa-clipboard"></i> History</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;">Method</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="caesar.html">Caesar</a><a class="dropdown-item" role="presentation" href="vigenere.html">Vigenere</a><a class="dropdown-item" role="presentation" href="enigma.html">Enigma</a><a class="dropdown-item" role="presentation" href="sha256.html">Sha256</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="interception.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-envelope-open-text"></i> Interception</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="conclusion.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-edit"></i> Conclusion</a></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;"><i class="fas fa-laptop"></i> Program</a>
+
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="program.html">Encrypt</a><a class="dropdown-item" role="presentation" href="decrypt.html">Decrypt</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="bibliography.html" style="color:#ffffff;font-weight:bold;"> <i class="fas fa-book"></i> Bibliography</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="contact.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-phone"></i> Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<h1 class="ttitle titre">Sha256</h1>
+
+<div class="d-flex justify-content-between  mb-3">
+    <div class="p-2 margin">The SHA-256 (Secure Hash Algorithm), on the contrary to encryption, is one of the hash cryptographic function designed by the NSA (National Security Agency), in the USA, and published in 2002 by the government of USA, as FIPS (Federal Information Processing Standard) at the NIST (National Institute of Standards and Technology). <br>
+    A Hash function is a function which will calculate a unique print (or a signature) from the data provided.
+    Hashing is a function which will "mix" a password, for example, to obtain a print. Using this, the computer will not know your password but it will compare the signature saved on the server with the password you enter, and if it matches, will allow the access.
+
+</div>
+    <div class="p-2"><img src="assets/img/sha2561.png"></div>
+</div>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2"> 
+   Properties of hash functions : <br> <br>
+
+    1. The length of the signature must always be the same (regardless of the length of the input data. We will see later what are the lengths of the imprints following the hash functions.) <br>
+    2. Original data cannot be found from the signature: the hash functions only works in one way. <br>
+    3. It should not be possible to predict a signature. (It is not possible to try to imagine what the signature might be by looking at the data) <br>
+    4. And finally, of course, for different data: signatures must be different. <br>
+
+    A hash function could compare passwords, check downloads data, check the electronic or numeric signature of a file... Also, using a hash function for stocking a big amount of personal data is good because, if the print of the file is present, the document is present. It's faster to check it rather than re-download the whole file. <br>
+    With the hash function, we could obtain a similar print for a different file. That is called a collision. Generally, that's not a problem because the main goal of a hash function is to compare data and check if the data sent is the same as the data received.<br>
+    It's a bigger problem if it happens with a hash table or with data stocking. So it's better to use a hash function with a low rate of collisions.<br><br>
+
+    Finally, it's nearly impossible to decrypt a hash function because his role is just to compare data, and you can't recover the original file with the hashed code.
+
+
+    </div> 
+</div>
+
+
+
+
+
+
+    <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <div class="footer-dark" style="background-color:rgba(40,45,50,0);">
+        <footer>
+            <div class="container">
+                <p class="copyright" style="color:rgb(22,22,22);letter-spacing:2px;font-size:17px;"><br>© ZERKA. ALL RIGHTS RESERVED<br><br></p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

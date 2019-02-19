@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interception | TPE Report</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="highlight-blue" style="background-color:rgb(46,46,46);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">TPE Report</h2>
+                <p class="text-center">By Zerka and Hatu7<br></p>
+            </div>
+            <div class="buttons"></div>
+        </div>
+    </div>
+    <div style="background-color:#5797d2;">
+        <nav class="navbar navbar-light navbar-expand-sm navigation-clean" style="background-color:#5797d2;color:rgb(255,255,255);">
+            <div class="container"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                   <ul class="nav navbar-nav ml-auto" style="margin-right:0px;margin-left:0px">
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="index.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-home"></i> Homepage</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="history.html" style="color:#ffffff;font-weight:bold;"><i class="far fa-clipboard"></i> History</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;">Method</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="caesar.html">Caesar</a><a class="dropdown-item" role="presentation" href="vigenere.html">Vigenere</a><a class="dropdown-item" role="presentation" href="enigma.html">Enigma</a><a class="dropdown-item" role="presentation" href="sha256.html">Sha256</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="interception.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-envelope-open-text"></i> Interception</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="conclusion.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-edit"></i> Conclusion</a></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#ffffff;font-weight:bold;"><i class="fas fa-laptop"></i> Program</a>
+
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="program.html">Encrypt</a><a class="dropdown-item" role="presentation" href="decrypt.html">Decrypt</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="bibliography.html" style="color:#ffffff;font-weight:bold;"> <i class="fas fa-book"></i> Bibliography</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-uppercase" href="contact.html" style="color:#ffffff;font-weight:bold;"><i class="fas fa-phone"></i> Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<h1 class="ttitle titre">Interception</h1>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">We saw that substitution, encryption, or again hash function can secure our data at different levels. Currently, on the Internet, nearly every coded messages are secured by hash functions, because those are nearly inviolable. But even with this, big hackings still exists. For example, recently, Facebook has been hacked, and 5 millions of users saw their accounts stolen. So, what was the way hackers managed to access all those data despite the firewalls and encryption codes or hash functions of Facebook?
+	For this hack, it was the “token of access” which was involved.
+	But, there’s a lot of different ways to hack data, hackers just have to find a flaw in the security and exploit it.
+	</div>
+</div>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">So, we will give you a lots differents of ways to secure a maximum your data: <br><br>
+
+	-Use protection softwares to assure your protection against viruses. they will analyze the files and websites visited and search if there is anything malicious in it.
+	<br>
+	-Never accept the downloading of a file which you’re not at the origin : 
+	That is called “drive-by download”, which automatically launch downloads when you load a website. Those downloads typically contain viruses, or malwares.
+	<br>
+	-Use an internet browser up to date which will assure you to be at the top of the protection and that there’s no hole in the security firewall.
+	<br>
+	-Surf at maximum on https pages, and check if the padlock is closed on the IP address bar. It will assure you that you’re on a safe page.
+	<br>
+	-Don’t open files you’re not sure where they are from (for example with suspicious Emails)
+	<br>
+	-On your smartphones, use the protocol PGP: his objective is to encrypt Emails, vocals files or text messages on your apps. Those lasts could propose you encryption methods to assure your privacy. The E2EE (End to End Encryption) is used by WhatsApp and guaranteed that you and your contact are the only ones able to see the decoded message. The staff himself can’t have the encryption key, thus can’t read the decoded message.
+	<br>
+	-If you want to save data on the cloud, encrypt them if you want to be sure that no one could consult them.
+	<br>
+	-And if you want to assure you that nobody will be able to see your data on the web, you can use the browser “Tor”, it uses decentralized routers, which don’t save any data on the computer, of your visit on the web. But this browser is known to be used to perpetrate illegal activities.
+	There is also VPNs (Virtual Private Network) used by companies or individuals to receive an IP address corresponding to a foreigner server, making you more untraceable.
+	<br><br>
+
+
+
+	Nowadays, everything, even information, can be trade for a certain amount of money. The hackers always finds value in our personal data. The information-gathering market became more and more important with the democratization of the Internet and technological advances.<br>
+	Now, we will list you some of the most used methods by hackers to get your personal information or make viruses or malwares get inside your computer.
+	</div>
+    
+</div>
+
+<h2 class="stitle titre">Phishing</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">Phishing consists in making believe the victim that she is communicating with someone she’s trusting in order to extract their personal data and information, such as their bank card, password, …
+	One of the techniques of phishing is to send emails to people and, under the name of someone trustworthy, ask them personal information or redirect them to a fake website.<br><br>
+	Here are 3 advices to raise your protection against this risk:<br><br>
+	-Verify the address of the website, it must start with « https » to be truly secured<br>
+	-Don’t communicate your personal information easily<br>
+	-Be absolutely sure of the identity of the person you’re talking to<br>
+	</div>
+	<div class="p-2"><img src="assets/img/phising.jpg"></div>
+</div>
+
+<h2 class="stitle titre">Ransomware</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+	<div class="p-2"><img src="assets/img/ransomware.jpg"></div>
+    <div class="p-2">The ransomware is a malicious program spreading a lot nowadays. (ex : Wannacrypt, Jaff, Locky, TeslaCrypt, Cryptolocker, etc...). It consists in encrypting some of your data (personal photos, videos, …) and threatening you to delete them or send them to people unless you pay a certain amount.<br><br>
+
+    Here are 3 advices to raise your protection against this risk:<br><br>
+	-Perform regular backups of your data.<br>
+	-Don’t open messages whose provenance or form is doubtful.<br>
+	-Learn to identify the extension of suspicious files. If they don’t match what you're used to open, don’t click.<br>
+	</div>
+
+</div>
+
+<h2 class="stitle titre">Keylogging</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">Keylogger consists of installing on your computer a spyware - a "keylogger" - that records everything the user types on his keyboard. It mainly allows the person controlling the keylogger to gain your computer’s password or even your credit card’s information if you buy something online<br><br>
+    Here are 5 advices to raise your protection against this risk:<br><br>
+	-Be very careful when using a public computer or terminal that does not belong to you. Do not access any private accounts on this type of device unless you have the ability to completely erase the traces of your passage.<br>
+	-Avoid installing softwares you don’t know where it came from.<br>
+	-Keep all your softwares and operating system up to date.<br>
+	-Equip yourself with an all-in-one protective solution including antivirus, firewall, anti-malware, anti-spam and locking tools for accessing bank accounts.<br>
+	-Learn how to detect false emails, erase them from your computer and never click on the links inserted in those, especially if you are not sure of their origin. Also make sure to change your passwords regularly, always combining letters, numbers and symbols, and set a different password for each account and don’t write them anywhere, even less in a file on your computer.<br>
+
+	</div>
+	<div class="p-2"><img src="assets/img/keylogging.jpg"></div>
+</div>
+
+<h2 class="stitle titre">Cracking</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">Cracking consists in finding a way to guess someone’s password. This technique work quite well on unsophisticated users who put obvious passwords like their own name, those of their children or their pet. So, if a hacker, who spied or knew his victim beforehand, tests a few passwords like the name of the victim’s children, he will have total access to the computer. That’s why it’s useful to use strong passwords. But even some seemingly robust passwords can be cracked using specific software called a “cracker” (John the ripper, L0phtCrack for Windows). There is 3 differents methods that can be used to crack a password.<br><br>
+
+	<span class="etoiles">•</span> Raid by dictionary:
+	The software test all password stored in a “.txt” file. The method is fearsome because, in addition to its speed, it usually results since the passwords of lambda users are often existing words.<br><br>
+	<span class="etoiles">•</span> Raid hybrid :
+	The software tests all passwords stored in a “.txt” file and adds some combinations to it. For example, “love01”. This method is also formidable since many people put numbers after their password, thinking that it’s reinforcing it a lot.<br><br>             
+	<span class="etoiles">•</span> Raid brute-force :
+	The software tests all possible combinations. So this kind of attack “technically” ends every time. Fortunately, testing all combinations takes a lot of time, so the longer your password is, the most secured it is. For example, if we take all the 96 different characters possible (lower and uppercased letters, numbers and symbols) and a password with 8 characters, there are 96^8 possible combinations, which would take way too much time to crack, even for a supercomputer.
+	<br><br>
+	Here are 3 advices to raise your protection against this risk:<br><br>
+
+	-Choose a robust password and do not write it on a medium (papers, ...) since nothing prevents a hacker from searching the garbage cans for example:<br>
+
+	    A robust password must meet several criteria:<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;has more than 8 characters<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uses both cases (upper/lower)<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uses numbers and symbols<br>
+
+	-Don’t use real words or something personal in your password <br>
+
+	-Regularly change your passwords to maximize the protection<br>
+	</div>
+
+</div>
+
+<h2 class="stitle titre">Scanning</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+    <div class="p-2">Scanning involves in scanning all the ports on a machine by using a tool called a scanner. Depending on their reactions, the scanner will deduce if each port is open or not. It’s a very useful tool for hackers. This allows them to know the weak spots of our computer and therefore know where they can attack, especially since the scanners have evolved. Today, they can determine the operating system and applications associated with ports.<br><br>
+
+	Here are 3 advices to raise your protection against this risk:<br><br>
+            
+	-Scanning yourself your machine to know the open ports.<br>
+	-Monitor open ports with a firewall and close those that are not useful.<br>
+	-Use an IDS (Intrusion Detector) or better an IPS (Intrusion Prevention).<br>
+	</div>
+	<div class="p-2"><img src="assets/img/scanning.jpg"></div>
+</div>
+
+<h2 class="stitle titre">Trojan</h2>
+
+<div class="d-flex justify-content-between  mb-3 margin">
+	<div class="p-2"><img src="assets/img/trojan.png"></div>
+    <div class="p-2">A Trojan takes its name from the myth of the Trojan horse. This program has an overall healthy appearance, often even attractive, but when it is executed, it performs, discreetly or not, additional actions. These actions can be of any form, such as installing a backdoor for example.<br><br>
+
+    After being the target of a trojan malware, we can fear everything. An attacker can easily access your system if the Trojan installed a <a class="tooltipbox2">backdoor<span class="tooltiptext">A backdoor is a method consisting in installing a malware on a computer to have a remote access on it.</span></a>. Recent years have seen the arrival of a new type of Trojans, very fashionable today. This trojan, behind his attractive appearance,  consists of two parts. One that the hacker will send to the victim, and one that he will use once the victim’s computer has been infected. So once the victim has executed the trojan, the hacker will be able to control its computer. Often, this kind of program offers the hacker more features that the user has himself on his computer, since he can bypass even the internal windows security.<br><br>
+
+	Here are 5 advices to raise your protection against this risk:<br><br>
+	-Uninstall all programs that you aren’t familiar with.<br>
+	-Reboot your computer in Safe mode.<br>
+	-Install an antivirus program on your computer if it is not already done.<br>
+	There are several free and quality options, such as Malwarebytes or Avast. Or you can also choose to buy a paid antivirus, which often has a larger database that allows you to detect more viruses.<br>
+	-Perform a “System Restoration”.<br>
+	-uninstall all programs you don’t seem familiar.<br><br>
+
+
+	The best way to secure your data is to use a Hash function, like SHA-256. 
+
+	</div>
+
+</div>
+
+
+
+    <div class="footer-dark" style="background-color:rgba(40,45,50,0);">
+        <footer>
+            <div class="container">
+                <p class="copyright" style="color:rgb(22,22,22);letter-spacing:2px;font-size:17px;"><br>© ZERKA. ALL RIGHTS RESERVED<br><br></p>
+            </div>
+        </footer>
+    </div>
+
+    <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

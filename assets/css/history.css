@@ -1,0 +1,23 @@
+#Image1467{
+	position:relative;
+	margin-left: 50%;
+}
+#texte1467{
+	position: absolute;
+	bottom: 50%;
+	width: 400px;
+
+}
+
+
+#Image2{
+	position:absolute;
+	margin-right: 50%;
+
+}
+
+#texte2{
+	position: relative;
+	float: right;
+	width: 400px;
+}

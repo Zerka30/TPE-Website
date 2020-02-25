@@ -1,0 +1,85 @@
+html, body {
+  background: #fff;
+  min-width: 700px;
+}
+
+ol {
+  position: relative;
+  display: block;
+  margin: 7%;
+  height: 4px;
+  background: #31708F;
+}
+
+ol::before,
+ol::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 10px;
+  border: 10px solid #31708F;
+}
+
+ol::before {
+  left: -5px;
+}
+
+ol::after {
+  right: -10px;
+  border: 10px solid transparent;
+  border-right: 0;
+  border-left: 20px solid #31708F;
+  border-radius: 3px;
+}
+
+
+li#arrow {
+  position: relative;
+  display: inline-block;
+  width: 9%;
+  font: bold 14px arial;
+  height: 70px;
+
+}
+
+li#arrow .diplome {
+  position: absolute;
+  top: -27px;
+  left: 35%;
+  color: #000000;
+}
+
+li#arrow .diplome1 {
+  position: absolute;
+  top: -27px;
+  left: 26%;
+  color: #000000;
+}
+
+li#arrow .diplome7 {
+  position: absolute;
+  top: -27px;
+  left: 26%;
+  color: #000000;
+}
+
+li#arrow .point {
+  content: "";
+  top: -2px;
+  left: 43%;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 4px solid #31708F;
+  border-radius: 10px;
+  background: #fff;
+  position: absolute;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #48A4D2;
+}
